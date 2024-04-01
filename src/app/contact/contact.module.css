@@ -6,16 +6,16 @@
 
 .imgContainer {
   flex: 1;
+  height: 500px;
   position: relative;
-}
-
-.formContainer {
-  flex: 1;
 }
 
 .img {
   object-fit: contain;
-  height: 500px;
+}
+
+.formContainer {
+  flex: 1;
 }
 
 .form {
@@ -24,7 +24,7 @@
   gap: 20px;
 }
 
-.form input, 
+.form input,
 .form textarea {
   padding: 20px;
   border-radius: 5px;

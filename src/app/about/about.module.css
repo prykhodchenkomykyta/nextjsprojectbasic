@@ -10,21 +10,17 @@
   gap: 50px;
 }
 
-.imgContainer {
-  flex: 1;
+.subtitle {
+  color: var(--btn)
 }
 
-.subTitle {
-  color: var(--btn);
+.title {
+  font-size: 54px;
 }
 
 .desc {
   font-size: 20px;
   font-weight: 300;
-}
-
-.title {
-  font-size: 54px;
 }
 
 .boxes {
@@ -40,7 +36,12 @@
 }
 
 .box h1 {
-  color: var
+  color: var(--btn);
+}
+
+.imgContainer {
+  flex: 1;
+  position: relative;
 }
 
 .img {

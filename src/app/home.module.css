@@ -10,11 +10,6 @@
   gap: 50px;
 }
 
-.immgContainer {
-  flex: 1;
-  position: relative;
-}
-
 .title {
   font-size: 96px;
 }
@@ -38,22 +33,19 @@
 
 .button:first-child {
   background-color: var(--btn);
-  color: var(--text)
+  color: var(--text);
 }
 
 .brands {
-  position: relative;
+  width: 500px;
   height: 50px;
-  width: 50px;
+  position: relative;
   filter: grayscale(1);
 }
 
-.brandImg {
-
-}
-
-.heroImg {
-
+.imgContainer {
+  flex: 1;
+  position: relative;
 }
 
 @media (max-width: 1024px) {
